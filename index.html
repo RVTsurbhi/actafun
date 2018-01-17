@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Bootstrap 3, from LayoutIt!</title>
+    <title>Actafun</title>
 
     <meta name="description" content="">
     <meta name="author" content="">
@@ -13,13 +13,14 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <!--script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   </head>
   <body>
 
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
+
           <!-- Brand and toggle get grouped for better mobile display -->
            <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#active" aria-expanded="false">
@@ -28,7 +29,7 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#" class="navbar-left"><img src="./images/logo.png" alt=""></a>
+              <a class="navbar-brand" href="#" class="navbar-left"><img id="logo" src="./images/logo.png" alt="logo"></a>
            </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
@@ -41,164 +42,228 @@
                     <li><a href="#">FIND GUIDES</a></li>
                 </ul>
 
-                 <ul class="nav navbar-nav navbar-right">
-                   <li><a href="#">WELCOME JOHN!</a></li>
+                 <div class="nav navbar-nav navbar-right">
+                   <li><a href="#">WELCOME! JOHN DOE</a></li>
                    <div class="dropdown">
-                     <button class="dropbtn"><img class="img-responsive2 img-circle" height="55" width"50"
+                     <button class="dropbtn"><img id="nav_img" class="img-responsive"
                        src="./images/jam.jpg"></button>
                      <div class="dropdown-content">
-                       <a href="#">my activities</a>
-                       <a href="#">notifications</a>
-                       <a href="#">refer and earn</a>
-                       <a href="#">favourities</a>
-                       <a href="#">settings</a>
-                       <a href="#">logout</a>
+                       <a href="#">My Activities</a>
+                       <a href="#">Notifications</a>
+                       <a href="#">Refer and Earn</a>
+                       <a href="#">Favourities</a>
+                       <a href="#">Settings</a>
+                       <a href="#">Logout</a>
                      </div>
                    </div>
 
-                </ul>
+                </div>
 
           </div><!-- /.navbar-collapse -->
-
-       </div><!-- /.container -->
   </nav>
 
 
     <section id="home">
       <div class="banner">
-          <div class="container">
             <div class="home_img">
-            <h1 class="text-center">water activities</h1>
-            <h3 class="text-center">120 found in dublin</h3>
-          </div>
-        </div>
+              <h1>water activities</h1><h3>120 found in dublin</h3>
+            </div>
       </div>
     </section>
 
-    <section id="bottomnavbar">
-       <nav class="navbar navbar-default bottomnav">
-         <div class="container">
-           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-             <ul class="nav navbar-nav">
-               <li class="dropdown">
-                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                    aria-expanded="false">location <span class="caret"></span></a>
-                 <ul class="dropdown-menu">
-                    <li><a href="#">projects</a></li>
-                    <li><a href="#">blog</a></li>
-                 </ul>
-                </li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                     aria-expanded="false"> categories<span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                     <li><a href="#">projects</a></li>
-                     <li><a href="#">blog</a></li>
-                  </ul>
-                 </li>
-                 <li class="dropdown">
-                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                      aria-expanded="false">price <span class="caret"></span></a>
-                   <ul class="dropdown-menu">
-                      <li><a href="#">projects</a></li>
-                      <li><a href="#">blog</a></li>
-                   </ul>
-                  </li>
-                  <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                       aria-expanded="false">select date <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                       <li><a href="#">projects</a></li>
-                       <li><a href="#">blog</a></li>
-                    </ul>
-                  </li>
+    <section id="bottombar">
+      <div class="bottom">
+        <ul class="bottomnav">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+               aria-expanded="false">Location <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">goa</a></li>
+                <li><a href="#">uk</a></li>
+              </ul>
+            </li>
+           <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                aria-expanded="false"> Categories<span class="caret"></span></a>
+             <ul class="dropdown-menu">
+                <li><a href="#">new</a></li>
+                <li><a href="#">blog</a></li>
              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                 aria-expanded="false">Price <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                 <li><a href="#">projects</a></li>
+                 <li><a href="#">blog</a></li>
+              </ul>
+             </li>
+             <li class="dropdown">
+               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  aria-expanded="false">Select date <span class="caret"></span></a>
+               <ul class="dropdown-menu">
+                  <li><a href="#">projects</a></li>
+                  <li><a href="#">blog</a></li>
+               </ul>
+             </li>
+        </ul>
+      </div>
+    </section>
 
-           </div>
-         </div>
-       </nav>
-     </section>
 
-
+   <section id="about">
+     <div class="btn-toolbar">
+       <button type="button" class="btn btn-secondary btn-lg"><span class="text">Dublin x</span></button>
+       <button type="button" class="btn btn-secondary btn-lg"><span class="text">Water activities x</span></button>
+       <button type="button" class="btn btn-secondary btn-lg"><span class="text">Free - &euro;300 x</span></button>
+       <button type="button" class="btn btn-secondary btn-lg"><span class="text">20 may 2018 x</span></button>
+     </div>
+   </section>
 
    <section id="features">
-     <div class="btn-toolbar">
-        <input  class="btn btn-primary btn-lg" value="dublin" type="button">
-        <input  class="btn btn-primary btn-lg" value="wateractivity" type="button">
-        <input  class="btn btn-primary btn-lg" value="free$300" type="button">
-        <input  class="btn btn-primary btn-lg" value="20 may 2018" type="button">
-     </div>
      <div class="container">
        <div class="row">
-  		   <div class="col-md-3 col-sm-8">
+  		   <div class="col-md-3 col-sm-6">
             <div class="common">
-              <img src ="./images/krishna.jpeg" class="img-thumbnail img-responsive mypic">
-              <i class="far fa-heart fa-2x"></i>
-              <h5 class="head">image</h5><p class="para">my image</p>
+              <img src ="./images/krishna.jpeg" class="img-responsive mypic">
+              <div class="top-right">
+                <i class="fa fa-heart-o fa-2x"></i>
+              </div>
+              <div class="box">
+                <h4>Scuba Diving</h4><p><i class="fa fa-map-marker"></i><span class="pic-text">Howth, Dublin</span></p>
+                <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                <span class="price">&euro;230</span></p>
+             </div>
             </div>
             <div class="common">
-              <img src="./images/bottle.jpeg" class="img-thumbnail img-responsive mypic">
-              <i class="far fa-heart fa-2x"></i>
-              <h5 class="head">image</h5><p class="para">my image</p>
+              <img src="./images/bottle.jpeg" class=" img-responsive mypic">
+              <div class="top-right">
+                <i class="fa fa-heart-o fa-2x"></i>
+              </div>
+              <div class="box">
+                <h4>Scuba Diving</h4><p><i class="fa fa-map-marker"></i><span class="pic-text">Howth, Dublin</span></p>
+                <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                <span class="price">&euro;230</span></p>
+              </div>
             </div>
             <div class="common">
-              <img src="./images/cute.jpeg" class=" img-thumbnail img-responsive mypic">
-              <i class="far fa-heart fa-2x"></i>
-              <h5 class="head">image</h5><p class="para">my image</p>
+              <img src="./images/cute.jpeg" class=" img-responsive mypic">
+              <div class="top-right">
+                <i class="fa fa-heart-o fa-2x"></i>
+              </div>
+              <div class="box">
+                <h4>Scuba Diving</h4><p><i class="fa fa-map-marker"></i><span class="pic-text">Howth, Dublin</span></p>
+                <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                <span class="price">&euro;230</span></p>
+              </div>
             </div>
   		  </div>
 
-        <div class="col-md-3 col-sm-8">
+        <div class="col-md-3 col-sm-6">
           <div class="common">
-            <img src ="./images/effel.jpeg" class="img-thumbnail img-responsive mypic">
-            <i class="far fa-heart fa-2x"></i>
-            <h5 class="head">image</h5><p class="para">my image</p>
+            <img src ="./images/effel.jpeg" class="img-responsive mypic">
+            <div class="top-right">
+              <i class="fa fa-heart-o fa-2x"></i>
+            </div>
+            <div class="box">
+              <h4>Hot air ballon safari</h4><p><i class="fa fa-map-marker"></i><span class="pic-text">Howth, Dublin</span></p>
+              <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+              <span class="price">&euro;230</span></p>
+            </div>
           </div>
           <div class="common">
-            <img src="./images/bottle.jpeg" class="img-thumbnail img-responsive mypic">
-            <i class="far fa-heart fa-2x"></i>
-            <h5 class="head">image</h5><p class="para">my image</p>
+            <img src="./images/bottle.jpeg" class=" img-responsive mypic">
+            <div class="top-right">
+              <i class="fa fa-heart-o fa-2x"></i>
+            </div>
+            <div class="box">
+              <h4>Hot air ballon safari</h4><p><i class="fa fa-map-marker"></i><span class="pic-text">Howth, Dublin</span></p>
+              <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+              <span class="price">&euro;230</span></p>
+            </div>
           </div>
           <div class="common">
-            <img src="./images/cute.jpeg" class="img-thumbnail img-responsive mypic">
-            <i class="far fa-heart fa-2x"></i>
-            <h5 class="head">image</h5><p class="para">my image</p>
+            <img src="./images/cute.jpeg" class=" img-responsive mypic">
+            <div class="top-right">
+              <i class="fa fa-heart-o fa-2x"></i>
+            </div>
+            <div class="box">
+              <h4>Hot air ballon safari</h4><p><i class="fa fa-map-marker"></i><span class="pic-text">Howth, Dublin</span></p>
+              <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+              <span class="price">&euro;230</span></p>
+            </div>
           </div>
   		  </div>
 
-        <div class="col-md-3 col-sm-8">
+        <div class="col-md-3 col-sm-6">
           <div class="common">
-            <img src ="./images/effel.jpeg" class="img-thumbnail img-responsive mypic">
-            <i class="far fa-heart fa-2x"></i>
-            <h5 class="head">image</h5><p class="para">my image</p>
+            <img src ="./images/effel.jpeg" class="img-responsive mypic">
+            <div class="top-right">
+              <i class="fa fa-heart-o fa-2x"></i>
+            </div>
+            <div class="box">
+              <h4>City Water Park</h4><p><i class="fa fa-map-marker"></i><span class="pic-text">Howth, Dublin</span></p>
+              <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+              <span class="price">&euro;230</span></p>
+            </div>
           </div>
           <div class="common">
-            <img src="./images/bottle.jpeg" class="img-thumbnail img-responsive mypic">
-            <i class="far fa-heart fa-2x"></i>
-            <h5 class="head">image</h5><p class="para">my image</p>
+            <img src="./images/bottle.jpeg" class="img-responsive mypic">
+            <div class="top-right">
+              <i class="fa fa-heart-o fa-2x"></i>
+            </div>
+            <div class="box">
+              <h4>City Water Park</h4><p><i class="fa fa-map-marker"></i><span class="pic-text">Howth, Dublin</span></p>
+              <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+              <span class="price">&euro;230</span></p>
+            </div>
           </div>
           <div class="common">
-            <img src="./images/cute.jpeg" class="img-thumbnail img-responsive mypic">
-            <i class="far fa-heart fa-2x"></i>
-            <h5 class="head">image</h5><p class="para">my image</p>
+            <img src="./images/cute.jpeg" class="img-responsive mypic">
+            <div class="top-right">
+              <i class="fa fa-heart-o fa-2x"></i>
+            </div>
+            <div class="box">
+              <h4>City Water Park</h4><p><i class="fa fa-map-marker"></i><span class="pic-text">Howth, Dublin</span></p>
+              <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+              <span class="price">&euro;230</span></p>
+            </div>
           </div>
         </div>
 
-        <div class="col-md-3 col-sm-8">
+        <div class="col-md-3 col-sm-6">
           <div class="common">
-            <img src ="./images/effel.jpeg" class="img-thumbnail img-responsive mypic">
-            <i class="far fa-heart fa-2x"></i>
-            <h5 class="head">image</h5><p class="para">my image</p>
+            <img src ="./images/effel.jpeg" class="img-responsive mypic">
+            <div class="top-right">
+              <i class="fa fa-heart-o fa-2x"></i>
+            </div>
+            <div class="box">
+              <h4>City Water Park</h4><p><i class="fa fa-map-marker"></i><span class="pic-text">location</span></p>
+              <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+              <span class="price">&euro;230</span></p>
+            </div>
           </div>
           <div class="common">
-            <img src="./images/bottle.jpeg" class="img-thumbnail img-responsive mypic">
-            <i class="far fa-heart fa-2x"></i>
-            <h5 class="head">image</h5><p class="para">my image</p>
+            <img src="./images/bottle.jpeg" class=" img-responsive mypic">
+            <div class="top-right">
+              <i class="fa fa-heart-o fa-2x"></i>
+            </div>
+            <div class="box">
+              <h4>City Water Park</h4><p><i class="fa fa-map-marker"></i><span class="pic-text">location</span></p>
+              <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+              <span class="price">&euro;230</span></p>
+            </div>
           </div>
           <div class="common">
-            <img src="./images/cute.jpeg" class="img-thumbnail img-responsive mypic">
-            <i class="far fa-heart fa-2x"></i>
-            <h5 class="head">image</h5><p class="para">my image</p>
+            <img src="./images/cute.jpeg" class="img-responsive mypic">
+            <div class="top-right">
+              <i class="fa fa-heart-o fa-2x"></i>
+            </div>
+            <div class="box">
+              <h4>City Water Park</h4><p><i class="fa fa-map-marker"></i><span class="pic-text">location</span></p>
+              <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+              <span class="price">&euro;230</span></p>
+            </div>
           </div>
         </div>
 
@@ -207,6 +272,20 @@
 </div>
 
 </section>
+
+<!--footer section-->
+   <footer>
+
+     <div class="foot">
+       <div class="container">
+         <p class="small"><span class="white">&copy; copyright your website 2018</span>
+           <a href="/terms">Terms of use</a>|
+           <a href="/privacy">privacy policy</a>|
+         </p>
+
+       </div>
+     </div>
+</footer>
 
 
     <script src="js/jquery.min.js"></script>
