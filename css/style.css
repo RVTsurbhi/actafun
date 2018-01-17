@@ -1,13 +1,33 @@
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+/*a.navbar-brand.navbar-link
+{
+   height:45px;
+   margin-bottom: 0px;
+ }*/
+>>>>>>> f958082c102f4a68eb7fb023603083e984cc34bd
+>>>>>>> 69aded8933d88af9f1f101018a9f729b20934cb0
  html,body
 {
   width: 100%;
   height: 100%;
 }
+<<<<<<< HEAD
 .container {
     width: 1191px;
 }
 
+=======
+<<<<<<< HEAD
+
+.container {
+    width: 1190px;
+}
+>>>>>>> 69aded8933d88af9f1f101018a9f729b20934cb0
 .navbar-left{
   color: #F4F6F7;
 }
@@ -51,6 +71,7 @@
   margin-top: -10px;
 }
 #nav_img{
+<<<<<<< HEAD
   border-radius: 55%;
   margin-top: -19px;
   margin-right: 60px;
@@ -60,6 +81,17 @@
   object-position: center;
   background-position: center center;
   background-repeat: no-repeat;
+=======
+border-radius: 55%;
+margin-top: -19px;
+margin-right: 55px;
+width: 55px;
+height: 55px;
+object-fit: cover;
+object-position: center;
+background-position: center center;
+background-repeat: no-repeat;
+>>>>>>> 69aded8933d88af9f1f101018a9f729b20934cb0
 }
 /* bottombar section*/
 .bottom ul li a{
@@ -108,12 +140,14 @@ border-bottom: 1px solid #e7e7e7;
    font-family: 'Open Sans', sans-serif;
    color: #fdfefe;
    font-size: 45px;
+<<<<<<< HEAD
+=======
  }
  h3{
    font-family: 'Open Sans', sans-serif;
    color: #fdfefe;
    font-size: 24px;
-   margin-top: -7px;
+   margin-top:-6px;
  }
  /*features section*/
   h4 {
@@ -162,6 +196,105 @@ border-bottom: 1px solid #e7e7e7;
 
  .dropbtn {
      background-color: rgba(0, 0, 0,0);
+=======
+/*.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    height: 500px;
+    min-width: 100%;
+    max-width: 100%;
+    line-height: 1;
+
+}*/
+.navbar-right > a{
+  text-decoration: none;
+
+}
+ .navbar{
+  background-color: rgba(0, 0, 0,0.11);
+  margin-bottom: 0px;
+  border: none;
+}
+
+ .banner{
+   background: url("../images/wateractivity.jpg");
+   height: 450px;
+   margin-top: 0px;
+ }
+ .home_img{
+   top: 25%;
+ width: 80%;
+ position: absolute;
+>>>>>>> 69aded8933d88af9f1f101018a9f729b20934cb0
+ }
+ h3{
+   font-family: 'Open Sans', sans-serif;
+   color: #fdfefe;
+   font-size: 24px;
+   margin-top: -7px;
+ }
+ /*features section*/
+  h4 {
+    font-size: 16px;
+    color: #3e3d3d;
+  }
+
+<<<<<<< HEAD
+ .mypic{
+   min-height:320px;
+   width: 100%;
+   object-fit: cover;
+   object-position: center;
+ }
+ .common{
+   position: relative;
+   margin-bottom: 20px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+=======
+ #features{
+   margin-top: 40px;
+ }
+ .img-responsive{
+   height: 350px;
+ }
+ .common{
+   padding: 20px 30px;
+>>>>>>> 69aded8933d88af9f1f101018a9f729b20934cb0
+ }
+ .box{
+   padding: 10px 22px;
+ }
+ .top-right {
+    position: absolute;
+    top: 12px;
+    right: 14px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #ccc;
+}
+.fa-heart-o:hover {
+    color: red;
+}
+.price{
+  float: right;
+  font-size: 25px;
+  color: #440604 ;
+}
+.fa-map-marker{
+   color: #839192;
+}
+.fa-star{
+  color: #b3b6b7;
+}
+.fa-star:hover{
+  color:  #e4552c;
+}
+
+ .dropbtn {
+<<<<<<< HEAD
+     background-color: rgba(0, 0, 0,0);
+=======
+     background-color: rgba(0, 0, 0,0.11);
+>>>>>>> f958082c102f4a68eb7fb023603083e984cc34bd
+>>>>>>> 69aded8933d88af9f1f101018a9f729b20934cb0
      color: white;
      padding: 16px;
      font-size: 16px;
@@ -175,13 +308,32 @@ border-bottom: 1px solid #e7e7e7;
  }
 
  .dropdown-content {
+<<<<<<< HEAD
     display: none;
     position: absolute;
+=======
+<<<<<<< HEAD
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 170px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: -102px;
+=======
+   display: none;
+   position: absolute;
+>>>>>>> 69aded8933d88af9f1f101018a9f729b20934cb0
     background-color: #f9f9f9;
     min-width: 174px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+<<<<<<< HEAD
     left: -107px;
+=======
+    left: -66px;
+>>>>>>> f958082c102f4a68eb7fb023603083e984cc34bd
+>>>>>>> 69aded8933d88af9f1f101018a9f729b20934cb0
  }
 
  .dropdown-content a {
@@ -191,13 +343,25 @@ border-bottom: 1px solid #e7e7e7;
      display: block;
  }
 
+<<<<<<< HEAD
  .dropdown-content a:hover {  background-color: rgba(0, 0, 0,0);}
+=======
+<<<<<<< HEAD
+ .dropdown-content a:hover {  background-color: rgba(0, 0, 0,0);}
+=======
+ .dropdown-content a:hover {  background-color: rgba(0, 0, 0,0.11);}
+>>>>>>> f958082c102f4a68eb7fb023603083e984cc34bd
+>>>>>>> 69aded8933d88af9f1f101018a9f729b20934cb0
 
  .dropdown:hover .dropdown-content {
      display: block;
  }
 
  .dropdown:hover .dropbtn {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 69aded8933d88af9f1f101018a9f729b20934cb0
        background-color: rgba(0, 0, 0,0);
  }
  /*about section*/
@@ -217,7 +381,11 @@ border-bottom: 1px solid #e7e7e7;
   float: none;
   margin-bottom: 32px;
   }
+<<<<<<< HEAD
  .btn-toolbar.btn.focus, .btn:focus, .btn:hover {
+=======
+.btn-toolbar.btn.focus, .btn:focus, .btn:hover {
+>>>>>>> 69aded8933d88af9f1f101018a9f729b20934cb0
      color: transparent;
      text-decoration: none;
  }
@@ -305,6 +473,7 @@ border-bottom: 1px solid #e7e7e7;
     color: black;
     padding-top: 18px;
   }
+<<<<<<< HEAD
   /*#nav_img {
   border-radius: 55%;
   margin-top: -19px;
@@ -316,6 +485,15 @@ border-bottom: 1px solid #e7e7e7;
   background-position: center center;
   background-repeat: no-repeat;
   }*/
+=======
+  #nav_img {
+    height: 40px;
+    width: 40px;
+    border-radius: 55%;
+    margin-top: -13px;
+    margin-right: 39px;
+  }
+>>>>>>> 69aded8933d88af9f1f101018a9f729b20934cb0
  .dropbtn {
     padding: 20px;
   }
@@ -342,6 +520,10 @@ border-bottom: 1px solid #e7e7e7;
    h3{
      font-weight: bold;
      font-size: 18px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 69aded8933d88af9f1f101018a9f729b20934cb0
    }
    .btn-toolbar {
         margin-left: 100px;
@@ -360,3 +542,10 @@ border-bottom: 1px solid #e7e7e7;
       font-size: 13px;
   }
 }
+<<<<<<< HEAD
+=======
+=======
+       background-color: rgba(0, 0, 0,0.11);
+ }
+>>>>>>> f958082c102f4a68eb7fb023603083e984cc34bd
+>>>>>>> 69aded8933d88af9f1f101018a9f729b20934cb0
